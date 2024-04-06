@@ -160,10 +160,6 @@ private fun BottomNavigationComponent(
         }
     }
 }
-@Composable
-fun HomeScreen(viewModel: MainViewModel) {
-    // ваш код здесь
-}
 
 private data class NavigationItem(
     val index: Int,
